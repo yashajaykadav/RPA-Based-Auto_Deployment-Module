@@ -6,9 +6,9 @@
 
 ## 📌 Features
 - ✅ **Automated Data Entry** – Eliminate manual input with RPA scripts  
+- ✅ **Multi-Database Support** – Works with **SQL Server** & **PostgreSQL**  
 - ✅ **Smart Query Execution** – Run SQL queries efficiently  
 - ✅ **GUI Support** – User-friendly interface with Tkinter  
-- ✅ **Database Connectivity** – Supports SQL Server via `pyodbc`  
 - ✅ **Result Viewer** – View and export results directly  
 - ✅ **Reusable Modules** – Modular and scalable architecture  
 
@@ -16,6 +16,10 @@
 
 ## 🛠️ Tech Stack
 - **Language:** Python 🐍  
-- **Frameworks/Libs:** Tkinter (UI), PyODBC (DB connectivity), Pandas (data handling)  
-- **Database:** SQL Server  
+- **Frameworks/Libs:**  
+  - Tkinter → UI  
+  - PyODBC → SQL Server connectivity  
+  - Psycopg2 → PostgreSQL connectivity  
+  - Pandas → Data handling & export  
+- **Databases:** SQL Server, PostgreSQL  
 - **Automation:** RPA scripts  
